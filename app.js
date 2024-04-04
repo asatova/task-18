@@ -26,4 +26,14 @@ console.log(buManzara(500, 100));
 
 // 3- task
 
-console.log(Math.max(3, 2));
+function MaxTwoNumbers( numberone,numbertwo) {
+    let maxCount;
+    if (numberone > numbertwo) {
+        maxCount = numberone;
+    }
+    else {
+        maxCount = numbertwo;
+    }
+    return maxCount;
+}
+console.log(MaxTwoNumbers(5,10))
